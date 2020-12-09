@@ -2,11 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DvLog : MonoBehaviour
+namespace com.kyousuke916.test
 {
-    public void Log(string msg)
+    public class DvLog : MonoBehaviour
     {
-    	// v1.0.6
-        Debug.Log($"[DvLog]{msg}");
+        void Awake()
+        {
+            Log("Hello v1.0.7");
+        }
+
+        public void Log(string msg)
+        {
+            Debug.Log($"[DvLog]{msg}");
+        }
     }
 }
