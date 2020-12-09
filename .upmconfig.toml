@@ -1,0 +1,7 @@
+[npmAuth."https://npm.pkg.github.com/"]
+
+token = "b3bb7315e65c458d79b9913189d5527d553f9868"
+
+email = "kyousuke916@gmail.com"
+
+alwaysAuth = true

@@ -1,0 +1,10 @@
+{
+	"name": "@kyousuke916/com.kyousuke916.test",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/@kyousuke916"
+	},
+	"repository": {
+		"url": "https://github.com/kyousuke916/unity_packages.git"
+	},
+	"version": "1.0.2"
+}
